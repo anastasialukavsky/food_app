@@ -27,12 +27,12 @@ export function Hero() {
       </div>
       <div className='relative'>
         <Image
-          src={'/hero_pizza.jpg'}
+          src={'/hero_p.png'}
           className=''
-          height={600}
-          width={400}
+          // height={600}
+          // width={400}
           objectFit='contain'
-          // layout={'fill'}
+          layout={'fill'}
           alt='Margherita Pizza'
         />
       </div>
