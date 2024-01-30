@@ -13,3 +13,18 @@ section.hero {
   padding: 8px 22px 8px 22px;
   border-radius: 9999px;
 }
+
+input[type='email'],
+input[type='password'],
+input[type='text'] {
+  @apply block w-full mx-auto;
+  @apply border py-2 border-gray-300 bg-gray-100/80 mb-4 rounded-3xl placeholder:text-xs  pl-4;
+}
+
+label {
+  @apply text-gray-600;
+}
+
+.form-btn {
+  @apply  border border-gray-300 py-2 rounded-3xl px-4 w-full my-2 text-gray-600;
+}
