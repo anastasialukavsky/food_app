@@ -9,7 +9,6 @@ import React from 'react';
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
 
@@ -25,7 +24,6 @@ export default function Home() {
         />
         <ContactSection />
       </section>
-      <Footer />
     </>
   );
 }
